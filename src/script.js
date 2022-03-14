@@ -31,7 +31,58 @@
     tagName: 'p'
   });
 
-
+  const $doc=document;
+  class Table{
+    constructor(obj){
+      let $AM=$doc.getElementsByClassName(obj.AM);
+      let $PM=$doc.getElementsByClassName(obj.PM);
+      const AMlen=$AM.length;
+      const PMlen=$PM.length;
+      for(let i=0;i<AMlen;i++)
+      {
+        $AM[i].textContent=obj.correct[i][0];
+        $PM[i].textContent=obj.correct[i][1];
+      }
+    }
+  }
+  const sinkiba=new Table({
+    correct:[
+              ['-','-'],
+              ['-','-'],
+              ['-','-'],
+              ['-','-'],
+              ['-','-'],
+              ['-','-'],
+              ['-','-'],
+              ['-','-'],
+              ['-','-'],
+              ['-','-'],
+              ['-','-'],
+              ['-','-'],
+              ['-','-'],
+              ['✕','✕'],
+              ['〇','〇'],//ここから
+              ['〇','〇'],
+              ['〇','〇'],
+              ['〇','〇'],
+              ['〇','〇'],
+              ['✕','✕'],
+              ['✕','〇'],
+              ['〇','〇'],
+              ['〇','〇'],
+              ['〇','〇'],
+              ['〇','〇'],
+              ['✕','〇'],
+              ['✕','✕'],
+              ['-','-'],
+              ['-','-'],
+              ['-','-'],
+              ['-','-'],
+              ['-','-']
+            ],
+    AM:'amsinkiba',
+    PM:'pmsinkiba'
+  });
 
 })();
 /*
