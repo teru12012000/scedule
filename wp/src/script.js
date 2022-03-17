@@ -1,6 +1,7 @@
-import { sinkibaData } from "./sinkiba.js"; 
-
-let sinkiba_data=sinkibaData();
+import { sinkibaDeta } from "./sinkiba.js"; 
+import {aotobaDeta} from "./aoto.js";
+let sinkiba_deta=sinkibaDeta();
+let aoto_deta=aotobaDeta();
 class Accordion{
     //初期化
     constructor(obj){
@@ -46,6 +47,7 @@ class Accordion{
       }
     }
   }
-  const sinkiba=new Table(sinkiba_data);
+  const sinkiba=new Table(sinkiba_deta);
+  const aoto=new Table(aoto_deta);
 
 
