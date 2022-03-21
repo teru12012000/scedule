@@ -1,7 +1,9 @@
 import { sinkibaDeta } from "./sinkiba.js"; 
 import {aotobaDeta} from "./aoto.js";
+import {simizuDeta} from "./simizu.js";
 let sinkiba_deta=sinkibaDeta();
 let aoto_deta=aotobaDeta();
+let simizu_deta=simizuDeta();
 class Accordion{
     //初期化
     constructor(obj){
@@ -49,5 +51,6 @@ class Accordion{
   }
   const sinkiba=new Table(sinkiba_deta);
   const aoto=new Table(aoto_deta);
+  const simizu=new Table(simizu_deta);
 
 
