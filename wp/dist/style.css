@@ -1,9 +1,16 @@
 h1{
   text-align: center;
 }
+body{
+  background-image: url("./競技場.jpg");
+  background-size: cover;
+  background-attachment: fixed;      
+  background-position: center center;
+}
 .accordion{
   width: 500px;
   margin: 0 auto;
+  background-color: #fff;
 }
 .accordion-trigger{
   margin:0;
