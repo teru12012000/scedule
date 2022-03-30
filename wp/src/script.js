@@ -49,8 +49,36 @@ class Accordion{
       }
     }
   }
+  class AotoTable{
+    constructor(obj){
+      let $one=$doc.getElementsByClassName(obj.one);
+      let $two=$doc.getElementsByClassName(obj.two);
+      let $three=$doc.getElementsByClassName(obj.three);
+      let $four=$doc.getElementsByClassName(obj.four);
+      let $five=$doc.getElementsByClassName(obj.five);
+      const len=31;
+      for(let i=0;i<len;i++)
+      {
+        $one[i].textContent=obj.correct[i][0];
+        $two[i].textContent=obj.correct[i][1];
+        $three[i].textContent=obj.correct[i][2];
+        $four[i].textContent=obj.correct[i][3];
+        $five[i].textContent=obj.correct[i][4];
+      }
+    }
+  }
+  class ShimizuTable{
+    constructor(obj){
+      let $one=$doc.getElementsByClassName(obj.one);
+      const len=31;
+      for(let i=0;i<len;i++)
+      {
+        $one[i].textContent=obj.correct[i];
+      }
+    }
+  }
   const sinkiba=new Table(sinkiba_deta);
-  const aoto=new Table(aoto_deta);
-  const simizu=new Table(simizu_deta);
+  const aoto=new AotoTable(aoto_deta);
+  const simizu=new ShimizuTable(simizu_deta);
 
 
