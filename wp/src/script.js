@@ -1,9 +1,39 @@
 import { sinkibaDeta } from "./sinkiba.js"; 
 import {aotobaDeta} from "./aoto.js";
 import {simizuDeta} from "./simizu.js";
+import {odaDeta} from "./oda.js";
+const today= new Date();
+const days=[
+  "日",
+  "月",
+  "火",
+  "水",
+  "木",
+  "金",
+  "土"
+];
+
+const outputDate=(date)=>{
+  let outputText="「"+date.getFullYear() +"年";
+  outputText+=(date.getMonth()+1)+"月";
+  outputText+=date.getDate()+"日　";
+  outputText+=(days[date.getDay()])+"曜日です」";
+
+  return outputText;
+}
+
+let $day=document.getElementById('date');
+$day.textContent="今日は"+outputDate(today);
+
+
 let sinkiba_deta=sinkibaDeta();
 let aoto_deta=aotobaDeta();
 let simizu_deta=simizuDeta();
+let oda_deta=odaDeta();
+
+
+
+
 class Accordion{
     //初期化
     constructor(obj){
@@ -49,6 +79,20 @@ class Accordion{
       }
     }
   }
+  class Threetable{
+    constructor(obj){
+      let $AM=$doc.getElementsByClassName(obj.AM);
+      let $PM=$doc.getElementsByClassName(obj.PM);
+      let $night=$doc.getElementsByClassName(obj.night);
+      const AMlen=$AM.length;
+      for(let i=0;i<AMlen;i++)
+      {
+        $AM[i].textContent=obj.correct[i][0];
+        $PM[i].textContent=obj.correct[i][1];
+        $night[i].textContent=obj.correct[i][2];
+      }
+    }
+  }
   class AotoTable{
     constructor(obj){
       let $one=$doc.getElementsByClassName(obj.one);
@@ -77,8 +121,10 @@ class Accordion{
       }
     }
   }
-  const sinkiba=new Table(sinkiba_deta);
+  
+  
+  const sinkiba=new Threetable(sinkiba_deta);
   const aoto=new AotoTable(aoto_deta);
   const simizu=new ShimizuTable(simizu_deta);
-
+  const oda=new Threetable(oda_deta);
 

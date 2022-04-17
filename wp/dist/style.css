@@ -30,3 +30,14 @@ body{
 .accordion-contents{
   overflow-x: auto;
 }
+.Dataclass{
+  max-width: 1000px;
+  width: 60%;
+  padding: 30px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 30px;
+  line-height: 1.4;
+  text-align: center;
+}
