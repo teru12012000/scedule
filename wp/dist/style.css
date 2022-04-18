@@ -1,5 +1,7 @@
 h1{
   text-align: center;
+  font-size: 40px;
+  background-color: #fff;
 }
 body{
   background-image: url("./競技場.jpg");
