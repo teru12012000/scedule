@@ -66,7 +66,7 @@ class Accordion{
   });
 
   const $doc=document;
-  class Table{
+  /*class Table{
     constructor(obj){
       let $AM=$doc.getElementsByClassName(obj.AM);
       let $PM=$doc.getElementsByClassName(obj.PM);
@@ -78,7 +78,7 @@ class Accordion{
         $PM[i].textContent=obj.correct[i][1];
       }
     }
-  }
+  }*/
   class Threetable{
     constructor(obj){
       let $AM=$doc.getElementsByClassName(obj.AM);
@@ -91,6 +91,9 @@ class Accordion{
         $PM[i].textContent=obj.correct[i][1];
         $night[i].textContent=obj.correct[i][2];
       }
+      $AM[today.getDate()-1].style.backgroundColor='yellow';
+      $PM[today.getDate()-1].style.backgroundColor='yellow';
+      $night[today.getDate()-1].style.backgroundColor='yellow';
     }
   }
   class AotoTable{
@@ -109,6 +112,11 @@ class Accordion{
         $four[i].textContent=obj.correct[i][3];
         $five[i].textContent=obj.correct[i][4];
       }
+      $one[today.getDate()-1].style.backgroundColor='yellow';
+      $two[today.getDate()-1].style.backgroundColor='yellow';
+      $three[today.getDate()-1].style.backgroundColor='yellow';
+      $four[today.getDate()-1].style.backgroundColor='yellow';
+      $five[today.getDate()-1].style.backgroundColor='yellow';
     }
   }
   class ShimizuTable{
@@ -119,6 +127,7 @@ class Accordion{
       {
         $one[i].textContent=obj.correct[i];
       }
+      $one[today.getDate()-1].style.backgroundColor='yellow';
     }
   }
   
