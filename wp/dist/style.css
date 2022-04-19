@@ -45,6 +45,6 @@ body{
 }
 .message{
   font-size: small;
-  text-align: left;
+  text-align: center;
   color: red;
 }
