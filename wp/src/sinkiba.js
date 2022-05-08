@@ -18,11 +18,11 @@ export let sinkibaDeta=()=>{
               [y,y,y],
               [n,n,n],
               [n,n,n],//15
-              [n,n,n],
-              [n,n,n],
-              [n,n,n],
-              [n,n,n],
-              [n,n,n],//20
+              [y,y,y],
+              [y,y,y],
+              [y,y,y],
+              [n,n,y],
+              [y,y,y],//20
               [n,n,n],
               [n,n,n],
               [n,n,n],

@@ -28,13 +28,13 @@ export let odaDeta=()=>{
               [n,n,y],
               [n,n,y],
               [n,n,y],
-              [n,n,n],//25
+              [y,y,y],//25
+              [n,n,n],
+              [n,n,y],
+              [n,n,y],
               [n,n,n],
               [n,n,n],
-              [n,n,n],
-              [n,n,n],
-              [n,n,n],
-              [n,n,n],
+              [n,n,y],
             ],
     AM:'amoda',
     PM:'pmoda',

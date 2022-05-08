@@ -2,7 +2,7 @@ export let aotobaDeta=()=>{
   const yy='◎';
   const y='〇';
   const n='-';
-
+  const s='☆';
   let aoto_deta={
     correct:[
               [y,y,n,n,n],
@@ -13,13 +13,13 @@ export let aotobaDeta=()=>{
               [yy,yy,yy,yy,yy],
               [n,n,n,n,n],
               [n,n,n,n,n],
-              [n,n,n,n,n],
-              [n,n,n,n,n],//10
-              [n,n,n,n,n],
-              [n,n,n,n,n],
-              [n,n,n,n,n],
-              [n,n,n,n,n],
-              [n,n,n,n,n],//15
+              [n,s,yy,yy,yy],
+              [n,n,n,s,y],//10
+              [yy,yy,yy,yy,yy],
+              [n,n,n,s,y],
+              [yy,yy,yy,yy,yy],
+              [y,y,y,y,y],
+              [n,n,n,s,y],//15
               [n,n,n,n,n],
               [n,n,n,n,n],
               [n,n,n,n,n],
