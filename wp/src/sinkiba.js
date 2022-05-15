@@ -26,13 +26,13 @@ export let sinkibaDeta=()=>{
               [n,n,n],
               [n,n,n],
               [n,n,n],
+              [y,y,y],
+              [y,y,y],//25
               [n,n,n],
-              [n,n,n],//25
+              [y,y,y],
               [n,n,n],
               [n,n,n],
-              [n,n,n],
-              [n,n,n],
-              [n,n,n],
+              [n,n,n],//30
               [n,n,n],
             ],
     AM:'amsinkiba',
