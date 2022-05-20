@@ -2,6 +2,7 @@ import { sinkibaDeta } from "./sinkiba.js";
 import {aotobaDeta} from "./aoto.js";
 import {simizuDeta} from "./simizu.js";
 import {odaDeta} from "./oda.js";
+import {edoDeta} from "./edoriku.js";
 const today= new Date();
 const days=[
   "日",
@@ -30,7 +31,7 @@ let sinkiba_deta=sinkibaDeta();
 let aoto_deta=aotobaDeta();
 let simizu_deta=simizuDeta();
 let oda_deta=odaDeta();
-
+let edo_deta=edoDeta();
 
 
 
@@ -136,4 +137,5 @@ class Accordion{
   const aoto=new AotoTable(aoto_deta);
   const simizu=new ShimizuTable(simizu_deta);
   const oda=new Threetable(oda_deta);
+  const edo=new Threetable(edo_deta);
 

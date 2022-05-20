@@ -32,8 +32,8 @@ export let sinkibaDeta=()=>{
               [y,y,y],
               [n,n,n],
               [n,n,n],
-              [n,n,n],//30
-              [n,n,n],
+              [y,y,y],//30
+              [y,y,y],
             ],
     AM:'amsinkiba',
     PM:'pmsinkiba',
