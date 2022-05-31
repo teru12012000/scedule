@@ -6,12 +6,12 @@ export let edoDeta=()=>{
   let edo_deta={
     correct:[
               [n,n,n],
-              [n,n,n],
-              [n,n,n],
+              [n,n,y],
+              [y,y,n],
               [n,n,n],
               [n,n,n],//5
-              [n,n,n],
-              [n,n,n],
+              [y,y,y],
+              [y,y,y],
               [n,n,n],
               [n,n,n],
               [n,n,n],//10
@@ -24,17 +24,17 @@ export let edoDeta=()=>{
               [n,n,n],
               [n,n,n],
               [n,n,n],
-              [n,n,y],//20
-              [n,n,y],
-              [n,n,y],
-              [y,y,y],
-              [y,y,y],
-              [y,s,n],//25
-              [y,y,y],
-              [y,y,y],
-              [n,n,y],
-              [n,n,s],
-              [y,y,y],
+              [n,n,n],//20
+              [n,n,n],
+              [n,n,n],
+              [n,n,n],
+              [n,n,n],
+              [n,n,n],//25
+              [n,n,n],
+              [n,n,n],
+              [n,n,n],
+              [n,n,n],
+              [n,n,n],
               [n,n,n],
             ],
     AM:'amedo',
