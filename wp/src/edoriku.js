@@ -12,12 +12,12 @@ export let edoDeta=()=>{
               [n,n,n],//5
               [y,y,y],
               [y,y,y],
+              [y,s,n],
+              [y,y,y],
+              [n,n,y],//10
               [n,n,n],
               [n,n,n],
-              [n,n,n],//10
-              [n,n,n],
-              [n,n,n],
-              [n,n,n],
+              [y,y,y],
               [n,n,n],
               [n,n,n],//15
               [n,n,n],

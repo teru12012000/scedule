@@ -17,13 +17,13 @@ export let aotobaDeta=()=>{
               [yy,yy,yy,yy,yy],//10
               [y,y,y,y,y],
               [y,y,n,n,y],
+              [yy,yy,yy,yy,yy],
+              [y,y,y,y,y],
+              [yy,yy,yy,yy,yy],//15
+              [y,y,y,y,y],
+              [yy,yy,yy,yy,yy],
               [n,n,n,n,n],
-              [n,n,n,n,n],
-              [n,n,n,n,n],//15
-              [n,n,n,n,n],
-              [n,n,n,n,n],
-              [n,n,n,n,n],
-              [n,n,n,n,n],
+              [n,n,n,n,y],
               [n,n,n,n,n],//20
               [n,n,n,n,n],
               [n,n,n,n,n],

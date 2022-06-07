@@ -20,19 +20,19 @@ export let odaDeta=()=>{
               [n,n,y],
               [y,y,y],//15
               [n,n,n],
-              [n,n,n],
-              [n,n,n],
+              [n,n,y],
+              [y,y,y],
               [n,n,n],
               [n,n,n],//20
+              [n,n,y],
+              [y,y,y],
+              [n,n,n],
+              [n,n,y],
+              [n,n,y],//25
               [n,n,n],
               [n,n,n],
-              [n,n,n],
-              [n,n,n],
-              [n,n,n],//25
-              [n,n,n],
-              [n,n,n],
-              [n,n,n],
-              [n,n,n],
+              [n,n,y],
+              [y,y,y],
               [n,n,n],
               [n,n,n],
             ],
