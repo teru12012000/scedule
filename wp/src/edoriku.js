@@ -18,13 +18,13 @@ export let edoDeta=()=>{
               [n,n,n],
               [n,n,n],
               [y,y,y],
-              [n,n,n],
-              [n,n,n],//15
-              [n,n,n],
-              [n,n,n],
-              [n,n,n],
-              [n,n,n],
-              [n,n,n],//20
+              [n,n,y],
+              [y,s,n],//15
+              [y,y,y],
+              [y,y,y],
+              [n,n,y],
+              [n,n,y],
+              [y,y,y],//20
               [n,n,n],
               [n,n,n],
               [n,n,n],
