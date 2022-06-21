@@ -24,17 +24,17 @@ export let aotobaDeta=()=>{
               [yy,yy,yy,yy,yy],
               [n,n,n,n,n],
               [n,n,n,n,y],
-              [n,n,n,n,n],//20
+              [yy,yy,yy,yy,yy],//20
+              [y,yy,yy,y,y],
               [n,n,n,n,n],
-              [n,n,n,n,n],
-              [n,n,n,n,n],
-              [n,n,n,n,n],
-              [n,n,n,n,n],//25
-              [n,n,n,n,n],
-              [n,n,n,n,n],
-              [n,n,n,n,n],
-              [n,n,n,n,n],
-              [n,n,n,n,n],//30
+              [y,y,y,y,y],
+              [yy,yy,yy,yy,yy],
+              [n,n,n,n,y],//25
+              [n,n,n,n,y],
+              [yy,yy,yy,yy,yy],
+              [n,n,n,y,y],
+              [yy,yy,yy,yy,yy],
+              [y,y,y,y,y],//30
               [n,n,n,n,n]
             ],
     one:'oneaoto',
