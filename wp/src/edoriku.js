@@ -32,9 +32,9 @@ export let edoDeta=()=>{
               [n,n,n],//25
               [n,n,s],
               [y,y,y],
-              [n,n,n],
-              [n,n,n],
-              [n,n,n],
+              [y,y,y],
+              [y,y,y],
+              [y,y,y],
               [n,n,n],
             ],
     AM:'amedo',
